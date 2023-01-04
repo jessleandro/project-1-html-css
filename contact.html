@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Book an appointment with a healer from bloomingandhealing">
+	<meta name="keywords" content="reiki, healing, tarot, spirituality, flower remedies">
+	<meta name="author" content="bloomingandhealing">
+    <title>Book an appointment.</title>
+
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <header class="page-header">
+		<div class="vertical-center"><h1>Book an appointment with us today!</h1>
+			<p>Fill in the form and we will contact you.</p>
+		</div>
+	</header>
+
+    <nav class="double-border">
+        <a href="index.html#home" aria-label="Go to the top of the page">Home</a>
+            <a href="index.html#reiki" aria-label="Go to reiki section">Reiki</a>
+            <a href="index.html#tarotcards" aria-label="Go to tarot cards section">Tarot Cards</a>
+            <a href="contact.html" aria-label="Go to contact information section">Contact</a>
+        </nav>
+	
+	<form action="https://bloomingandhealing.net" method="POST">
+
+	<fieldset>
+		<legend>Your personal details</legend>
+
+		<div class="measures">
+			<label for="name-field">Full name:</label>
+			<input id="name-field" type="text" name="full_name" placeholder="Full name" required>
+		</div>
+		<div class="measures">
+			<label for="email-field">Email:</label>
+			<input id="email-field" type="email" name="email" placeholder="Email" required>
+		</div>
+        <div class="measures">
+			<label for="age-field">Age:</label>
+			<input id="age-field" type="text" name="age" placeholder="Age" required>
+		</div>
+        <div class="measures">
+			<label for="phone-field">Phone:</label>
+			<input id="phone-field" type="text" name="phone" placeholder="Phone" required>
+		</div>
+
+	</fieldset>
+
+		<fieldset>
+			<legend>Our services</legend>
+			<div class="measures">
+				<label for="services">1.Which of our services you would like to try?</label>
+				<input id="services" list="services" name="fav-coffee" required>
+				<datalist id="services">
+                    <option value="First appointment">
+					<option value="Reiki">
+					<option value="Tarot reading">
+					<option value="Bach flower remedies">
+				</datalist>
+			</div>
+<br>
+			<p>2.How many sessions would you like to book per week?</p>
+            <div class="measures">
+			<input id="1-session-radio" name="sessions-a-week" value="1-session" type="radio" required>
+			<label for="1-session-radio">1 healing</label>
+
+			<input id="2-session-radio" name="sessions-a-week" value="2-sessions" type="radio" required>
+			<label for="2-session-radio">2 healings</label>
+
+			<input id="3-session-radio" name="sessions-a-week" value="3-sessions" type="radio" required>
+			<label for="3-session-radio">3 healings</label>
+
+			<input id="4plus-session-radio" name="sessions-a-week" value="4plus-sessions" type="radio" required>
+			<label for="4-session-radio">4 or healings</label>
+            </div>
+<br>
+			<p>3.Do you have any prefered healer you'd like to work with?</p>
+			<div>
+				<input id="kevin-radio" name="healers" type="radio" required>
+				<label for="kevin-radio">Kevin D.</label>
+			</div>
+			<div>
+				<input id="jessica-radio" name="healers" type="radio" required>
+				<label for="jessica-radio">Jessica L.</label>
+			</div>
+			<div>
+				<input id="jade-radio" name="healers" type="radio" required>
+				<label for="jade-radio">Jade K.</label>
+			</div>
+			<div>
+				<input id="margaret-radio" name="healers" type="radio" required>
+				<label for="margaret-radio">Margaret D.</label>
+			</div>
+			<div>
+				<input id="any-radio" name="healers" type="radio" required>
+				<label for="any-radio">Any of the above</label>
+			</div>	
+		</fieldset>
+
+		<fieldset>
+			<legend>Additional comments</legend>
+			<textarea id="comments" rows="5" cols="30" name="comments" placeholder="write your comments here"></textarea>
+<br>
+        <input type="submit" value="Submit">
+		<input type="reset" value="Clear form">
+		</fieldset>
+
+        </form>
+    
+</body>
+</html>
