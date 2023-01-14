@@ -81,7 +81,7 @@ Users will be able to find information of how each holistic tool works, links to
   - From the source section drop-down menu, select Main
   - Once the Main branch has been selected, the page provided the link to the complete website
 
-The live link can be found here: [bloomlightandhealing]()
+The live link can be found here: [bloomlightandhealing](https://jessleandro.github.io/project-1-html-css/index.html#home)
 
 # Credits
 
