@@ -1,108 +1,93 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Bloom Light&Healing
 
-Welcome USER_NAME,
+The bloom light and healing is a website to people looking for wellbeing and improvement in theirs daily lifes.
+It offers different self knowledge tools and techniques to promote relaxation, healing and stress reduction.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users will be able to find information of how each holistic tool works, links to our social media, booking form and a choice between our practioners in order to feel confortable and supported. This site is targeted towards adults of any age group interested in spirituality, holictic theraphies and wellbeing.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![screenshot](/assets/images/BE4E12BC-C565-4A71-A9CC-28F81368F9F0.jpeg)
 
-## Gitpod Reminders
+# Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## The Header
+- The header shows the name of the wellbeing centre and the main slogan so the users can have direct and clear knowledge about the mission of the company.
+- It uses a image of a lit candle referring back to the idea of wellbeing and light, also setting the color palette and shades for the entire website.
+![header](/assets/images/9FF8712C-8E27-4A5D-BFAA-F37E5804858F.jpeg)
 
-`python3 -m http.server`
+## Navigation bar
+- Featured underneath the navigation shows: Home, Reiki and Tarot that links the user with the respective sections on the same page and Contact that takes the user to the next page where they can find a booking form.
+- The navigation has its elements in line with the same font used for the website but different background but changing the font color when the user hover the mouse over the selected link making it easy and acessible navigating through the menu.
+- The navigation bar is simple, effective and easy to spot.
 
-A blue button should appear to click: _Make Public_,
+![navigation](/assets/images/AE9A9748-7518-4208-937E-B54C465A5958.jpeg)
 
-Another blue button should appear to click: _Open Browser_.
+## Initial section
+- The first thing users will see is an introduction about healing energy and holistic practices so they can start to familirize with the subject of the website and start learning about the services offered.
+- The text has a title and a background image in order to caught the users attention to it.
+- It also serves as a transition into the next session where we have the information about the first and main therapy of the website.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![introduction](/assets/images/144C286D-A5F8-4329-8A68-BD3AFB06370B.jpeg)
 
-A blue button should appear to click: _Make Public_,
+## Reiki section
+- It contains information about energy healing called reiki.
+- It tells the user what reiki is, there's a list of benefits reiki brings to your health and some information about what happens during a session.
 
-Another blue button should appear to click: _Open Browser_.
+![reiki](/assets/images/F09DC4D3-0B98-465A-98B0-BB2A473422D7.jpeg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Tarot section
+- It contains a main image of tarot card being display on a table so the users may recognise it from previous contact with tarot cards or any knowledge they might have acquired before.
+- It explain for users that might have never heard about this tool before what it is and how it works.
+- There's a list of updated ways the tarot fits perfectly into our modern lives and how to benefit from it therapeutically.
 
-To log into the Heroku toolbelt CLI:
+![tarot](/assets/images/71F5FB37-5D8D-4F88-8022-49EB50CB3AF4.jpeg)![tarot2](/assets/images/8E87D90F-C106-40D8-98C9-1383A56ED38B.jpeg)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Contact section
+- The contact section encourages the users to fill in a booking form.
+- It contains a form that collects personal details as name, email and phone number in order to be contact back by one of the practitioners.
+- The user gets to choose between a list with the different services (reiki, tarot, first time appointment), the frequency of the treatment, their favorite therapist or any available if they have no preferences yet.
+- There's at the end an additional comments box for the user to write any special request or questions they might have about the treatments and times.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![form](/assets/images/B317D8EA-8D3E-4621-83C5-42CA9D8CD400.jpeg)![form2](/assets/images/185DECDB-2C82-448A-BAB0-194F76DF2739.jpeg)
 
-------
+## Social Media section
+- At the bottom, located on the footer the website shows how to find us on the social media links (instagram and twitter).
+- It contains the social media icons and also account names.
+- It gives the user an extra option to learn more about the work done by the therapists and see some customer's reviews or/and keep updated on any news and promotions
 
-## Release History
+![footer](/assets/images/48BD3938-ED1D-4655-AE5A-5C54541266D1.jpeg)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Testing
+- I tested that this page works in different browsers: Chrome, Microsoft edge, Safari.
+- I verified that this project is responsive, looks good and functions on all standard screen sizes using the google devtools.
+- I confirmed that the navigation bar, the header, all the sections and contact page is readable and easy to understand.
+- I verified that the form on the contact page works. It requires entries in every field apart from additional comments, which is optional, and will only accept email in the email field and both submit and reset button work.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Validator Testing
+- HTML: 
+  - No errors returned when passing through the official W3C validator.
+- CSS: 
+  - No erros were found when passing through the official (jigsaw) validator.
+- Accessibility:
+  - I confirmed that colors and fonts used in this project are easy to read and accessible by running it through lighthouse in devtools.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![lighthouse](/assets/images/87ACECD8-F210-4032-9B4C-8C6EEC4A96EB_1_201_a.jpeg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Unfixed Bugs
+- No unfixed bugs.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+# Deployment
+- The site was deployed to Github pages. The steps to deploy are follows:
+  - In the Github repository, navigate to the settings tab
+  - From the source section drop-down menu, select Main
+  - Once the Main branch has been selected, the page provided the link to the complete website
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The live link can be found here: [bloomlightandhealing]()
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+# Credits
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Content
+- The code to make the social media and the contact form was taken from the CI Coders Coffeehouse Project.
+- Some parts of the text for reiki and tarot sections was taken from [Wikipedia](www.wikipedia.org).
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Media
+- The images in the website was taken from [Pexels](https://www.pexels.com/).

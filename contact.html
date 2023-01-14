@@ -8,17 +8,18 @@
 	<meta name="author" content="bloomingandhealing">
     <title>Book an appointment.</title>
 
-    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
     <header class="page-header">
-		<div class="vertical-center"><h1>Book an appointment with us today!</h1>
+		<div class="vertical-center">
+			<h1>Book an appointment with us today!</h1>
 			<p>Fill in the form and we will contact you.</p>
 		</div>
 	</header>
 
-    <nav class="double-border">
+    <nav id="menu">
         <a href="index.html#home" aria-label="Go to the top of the page">Home</a>
             <a href="index.html#reiki" aria-label="Go to reiki section">Reiki</a>
             <a href="index.html#tarotcards" aria-label="Go to tarot cards section">Tarot Cards</a>
@@ -52,13 +53,12 @@
 		<fieldset>
 			<legend>Our services</legend>
 			<div class="measures">
-				<label for="services">1.Which of our services you would like to try?</label>
-				<input id="services" list="services" name="fav-coffee" required>
+				<label for="service">1.Which of our services you would like to try?</label>
+				<input list="services" id="service" name="service" required>
 				<datalist id="services">
                     <option value="First appointment">
 					<option value="Reiki">
-					<option value="Tarot reading">
-					<option value="Bach flower remedies">
+					<option value="Tarot">
 				</datalist>
 			</div>
 <br>
@@ -74,7 +74,7 @@
 			<label for="3-session-radio">3 healings</label>
 
 			<input id="4plus-session-radio" name="sessions-a-week" value="4plus-sessions" type="radio" required>
-			<label for="4-session-radio">4 or healings</label>
+			<label for="4plus-session-radio">4 or healings</label>
             </div>
 <br>
 			<p>3.Do you have any prefered healer you'd like to work with?</p>

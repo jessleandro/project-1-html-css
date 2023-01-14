@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: space mono, sans-serif;
+  font-weight: 400;
+  background-color: #ebffff;
+  color: #324B4B;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.vertical-center {
+  position: relative;
+  top: 30%;
+  text-align: center;
+}
+
+.page-header {
+  height: 30vh;
+  background: url('../images/pexels-ekaterina-bolovtsova-6766279.jpg') center / cover no-repeat;
+  color: #fff0f0;
+}
+
+#menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px double #85324b;
+  text-align: center;
+  background-color: floralwhite
+}
+
+nav > a {
+text-decoration: none;
+color: #A6A9CD;
+margin-left: 2%;
+padding: 0.5em;
+display: inline-block;
+}
+
+nav > a:hover {
+  color: #ffe433;
+}
+
+#menu a:hover {
+  color: #ffe433;
+}
+
+section h2 {
+  text-align: center;
+}
+
+#sec1-img {
+  padding: 5px;
+  background: url('../images/pexels-elina-fairytale-3865795.jpg') center / cover no-repeat;
+}
+
+#initial-text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#reiki, #tarotcards {
+  box-sizing: border-box;
+}
+
+#reiki h2, #tarotcards h2 {
+  border: 0.5px solid #85324b;
+  background-color: rgba(255, 250, 240);
+  text-align: center;
+}
+
+.left-box {
+  margin: 3px 3px 3px 20px;
+  padding: 3px;
+  float: left;
+  width: 45%;
+}
+
+.right-box {
+  margin: 3px 20px 3px 3px;
+  padding: 5px;
+  float: right;
+  width: 45%;
+}
+
+.center-box {
+  padding: 3px;
+  margin: 3px;
+  text-align: center;
+  list-style:inside;
+}
+
+#tarot-img {
+  width: 100%;
+  height: 450px;
+  padding: 3px;
+  background: url('../images/pexels-photo-3088369.jpeg') center / cover no-repeat;
+}
+
+.float-clear {
+  clear: both;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(180, 219, 209, 0.7);
+}
+
+footer h3 {
+  color: #9ca0ce;
+  font-style: normal;
+  text-decoration: underline wavy;
+}
+
+footer a {
+  color: #8c90c6;
+  text-decoration: none;
+  padding: 0 15px;
+  font-size: 1rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  padding: 15px;
+  margin: 15px auto;
+  background-color: white;
+}
+
+.measures {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+legend {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5em;
+}
+
+fieldset {
+  border: solid;
+  padding: 2%;
+  margin: 1.5em;
+}
+
+input[type=submit] {
+  padding: 0.5rem;
+  color: #324B4B;
+  background-color: #c8fee7;
+}
+
+input[type=reset] {
+  padding: 0.5rem;
+  background-color: #dde1e1;
+  color: #324B4B;
+}
+
+@media screen and (max-width: 620px) {
+  .vertical-center {
+    top: 10%;
+    font-size: smaller;
+  }
+  .right-box, .left-box, .center-box, #initial-text {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: left;
+    list-style: none;
+  }
+  #tarot-img {
+    height: 25vh;
+  }
+}
+@media screen and (max-width: 920px) {
+  #sec1-img {
+    color:#fff0f0;
+    text-shadow: 1px 1px black;
+  }
+}
